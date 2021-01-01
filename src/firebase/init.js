@@ -3,14 +3,12 @@ import firestore from 'firebase/firestore'
 
 //initialize Firebase
 var config = {
-    apiKey: "AIzaSyBsjG8mEULDD26xyQaZx5kvf_NylgQALJg",
-    authDomain: "udemy-ninja-smoothies-4afe2.firebaseapp.com",
-    databaseURL: "https://udemy-ninja-smoothies-4afe2.firebaseio.com",
-    projectId: "udemy-ninja-smoothies-4afe2",
-    storageBucket: "udemy-ninja-smoothies-4afe2.appspot.com",
-    messagingSenderId: "261952979249",
-    appId: "1:261952979249:web:beacbf6026a9b2e7dc3010",
-    measurementId: "G-HW5JTT147H"
+    apiKey: "AIzaSyBw6o6Fcoloqt2LRS59tJBxXPZQOBxnb9E",
+    authDomain: "udemy-ninja-chat-7dbf8.firebaseapp.com",
+    projectId: "udemy-ninja-chat-7dbf8",
+    storageBucket: "udemy-ninja-chat-7dbf8.appspot.com",
+    messagingSenderId: "1095288771888",
+    appId: "1:1095288771888:web:e3b2a92b56f088d482a4f5"
   };
   //config of firebase
   const firebaseApp = firebase.initializeApp(config);
