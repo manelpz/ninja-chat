@@ -11,6 +11,11 @@ export default new Router({
       path: '/',
       name: 'Welcome',
       component: Welcome
+    },
+    {
+      path: '/chat',
+      name:'Chat',
+      component: Chat
     }
   ]
 })
