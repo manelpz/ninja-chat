@@ -4,7 +4,7 @@ import Welcome from '@/components/Welcome'
 import Chat from '@/components/Chat'
 
 Vue.use(Router)
-
+//adding routing
 export default new Router({
   routes: [
     {
