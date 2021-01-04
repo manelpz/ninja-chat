@@ -18,12 +18,18 @@ export default {
   name: 'Welcome',
   data () {
     return {
-     name: null
+     name: null,
+     feedback: null
     }
   },
   methods:{
     enterChat(){
-      console.log(this.name)
+      //console.log(this.name)
+      if(this.name){
+
+      }else{
+        this.feedback = 'You must enter a name to join'
+      }
     }
   }
 }
