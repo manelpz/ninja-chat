@@ -19,6 +19,7 @@ export default new Router({
       props: true,
       beforeEnter:(to, from, next)=>{
         console.log(to.params.name)
+        // arrow function
       }
     }
   ]
