@@ -20,6 +20,7 @@ export default new Router({
       beforeEnter:(to, from, next)=>{
         console.log(to.params.name)
         // arrow function
+        next()
       }
     }
   ]
