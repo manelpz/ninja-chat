@@ -20,8 +20,9 @@ export default new Router({
       beforeEnter:(to, from, next)=>{
         if(to.params.name){
           next()
-        }
-        // arrow function
+        }else{
+          next({name:'Welcome'})
+        }        // arrow function
         
       }
     }
