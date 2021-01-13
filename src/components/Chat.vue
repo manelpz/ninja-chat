@@ -1,6 +1,13 @@
 <template>
 <div class="chat container">
     <h2 class="center teal-text">Ninja Chat</h2>
+    <div class="card">
+        <div class="card-content">
+            <ul class="messages">
+                <li></li>
+            </ul>
+        </div>
+    </div>
 </div>
 </template>
 
