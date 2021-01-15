@@ -4,7 +4,11 @@
     <div class="card">
         <div class="card-content">
             <ul class="messages">
-                <li></li>
+                <li>
+                    <span class="teal-text">Name</span>
+                    <span class="grey-text text-darken-3">messages</span>
+                    <span class="grey-text time">time</span>
+                </li>
             </ul>
         </div>
     </div>
