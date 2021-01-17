@@ -35,5 +35,12 @@
     font-size: 2.6em;
     margin-button: 400px;
 }
+.chat span{
+    font-size: 1.4em;
+}
+.chat .time {
+    display: block;
+    font-size: 1.2em;
+}
 
 </style>  
