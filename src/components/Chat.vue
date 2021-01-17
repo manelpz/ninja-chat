@@ -10,6 +10,9 @@
                     <span class="grey-text time">time</span>
                 </li>
             </ul>
+            <div class="card-action">   
+                <input type="text">
+            </div>
         </div>
     </div>
 </div>
@@ -28,5 +31,9 @@
 </script>
 
 <style>
+.chat h2{
+    font-size: 2.6em;
+    margin-button: 400px;
+}
 
 </style>  
