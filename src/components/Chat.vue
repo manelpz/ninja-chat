@@ -19,7 +19,7 @@
 </template>
 
 <script >
-/*adding script */
+
 import NewMessage from '@/components/NewMessage'
     export default {
         name: 'Chat',
