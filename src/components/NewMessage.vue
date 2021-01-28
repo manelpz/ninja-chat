@@ -10,6 +10,7 @@
 </div>
 </template>
 
+<!--adding some values-->
 <script>
     
     export default{
